@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 COPY . .
 RUN pip install -r reqs.txt
 EXPOSE ${SMTP_PORT}
-CMD ["python","smtp_server_relay.py"]
+CMD ["python","smtp_mailgun_relay.py"]
