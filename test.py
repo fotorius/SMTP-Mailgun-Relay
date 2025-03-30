@@ -10,7 +10,7 @@ BODY = 'This is a test email.'
 
 def send_email():
 
-    msg = MIMEText(body)
+    msg = MIMEText(BODY)
     msg['Subject'] = SUBJECT
     msg['From'] = SENDER
     msg['To'] = ', '.join(RECIPIENTS)
