@@ -7,12 +7,9 @@ Why? Some service providers are starting to block SMTP ports (25, 465, and 587)
 due to abuse. This system allows you to use a local SMTP server and relays them
 to Mailgun using their own REST API.
 
-Requirements:
-- Docker >= 26.1.3
+## Requirements
 
-Testing:
-- Using "mail" run on the terminal: 
-    echo "This is a test email." | mail -s "Test Email" recipient@your-domain.com
+- Docker >= 26.1.3
 
 ## .env
 
